@@ -34,10 +34,20 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 
 到此java环境就算安装成功了！
 
-## 2.安装Python3（文档版本是3.7.1，根据实际情况自选版本安装）
+## 2.安装Python3（文档版本是3.7.1，根据实际情况自选版本安装，若自带Python环境请跳过）
 
 [root@47 /]# wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz
 
 如若出现找不到wget命令，输入yum -y install wget，安装其依赖将会被安装
 
+[root@47 /]# tar -zxvf Python-3.7.1.tgz
 
+[root@47 /]# cd Python-3.7.1
+
+[root@47 /]# ./configure
+
+[root@47 /]# make && make install
+
+[root@47 /]# python3 -V
+
+Python 3.7.1
