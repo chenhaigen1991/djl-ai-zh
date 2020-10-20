@@ -79,3 +79,23 @@ Python 3.7.1
 这里的IP是内部环境IP，由于我部署的环境是在云服务器上，实际根据自己网络环境情况填写
 
 [root@d2l-java /]# jupyter notebook --ip=XXX.XXX.XX.XX --allow-root
+
+到此，整本书的环境搭建完成，通过访问 http://localhost:8888 该地址就会打开Jupyter笔记本，输入终端上的token，就大功告成！
+
+## 6.后记
+
+您可以通过添加Java单元来添加对DJL和MXNet的maven依赖关系，包括：
+
+// Add the maven dependencies
+
+%maven ai.djl:api:0.7.0-SNAPSHOT
+
+%maven org.slf4j:slf4j-api:1.7.26
+
+%maven org.slf4j:slf4j-simple:1.7.26
+
+// See https://github.com/awslabs/djl/blob/master/mxnet/mxnet-engine/README.md
+
+// for more MXNet library selection options
+
+%maven ai.djl.mxnet:mxnet-native-auto:1.7.0-b
