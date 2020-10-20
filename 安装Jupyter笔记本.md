@@ -44,11 +44,11 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 
 [root@djl /]# cd Python-3.7.1
 
-[root@djl /]# ./configure
+[root@Python-3.7.1 /]# ./configure
 
-[root@djl /]# make && make install
+[root@Python-3.7.1 /]# make && make install
 
-[root@djl /]# python3 -V
+[root@Python-3.7.1 /]# python3 -V
 
 Python 3.7.1
 
@@ -62,4 +62,4 @@ Python 3.7.1
 
 [root@djl /]# cd IJava/
 
-[root@djl /]# ./gradlew installKernel
+[root@IJava /]# ./gradlew installKernel
