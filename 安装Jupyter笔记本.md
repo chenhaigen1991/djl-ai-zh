@@ -51,3 +51,15 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 [root@djl /]# python3 -V
 
 Python 3.7.1
+
+## 3.在python3上安装jupyter笔记本
+
+[root@djl /]# pip3 install jupyter
+
+## 4.为Jupyter Notebook安装Java内核
+
+[root@djl /]# git clone https://github.com/frankfliu/IJava.git
+
+[root@djl /]# cd IJava/
+
+[root@djl /]# ./gradlew installKernel
