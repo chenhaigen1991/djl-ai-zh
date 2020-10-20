@@ -82,6 +82,10 @@ Python 3.7.1
 
 到此，整本书的环境搭建完成，通过访问 http://localhost:8888 该地址就会打开Jupyter笔记本，输入终端上的token，就大功告成！
 
+这里提供一个我安装在云端的Jupyter笔记本,地址：http://47.114.1.215:8888/
+
+token：f88e11e47d8e6be72f30d8374578c7f018263cfeb3733fab
+
 ## 6.后记
 
 您可以通过添加Java单元来添加对DJL和MXNet的maven依赖关系，包括：
