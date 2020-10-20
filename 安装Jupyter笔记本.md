@@ -67,3 +67,15 @@ Python 3.7.1
 [root@djl /]# cd IJava/
 
 [root@IJava /]# ./gradlew installKernel
+
+构建完成后你会看见绿色标识BUILD SUCCESSFUL，表示安装成功
+
+## 5.下载并运行D2L-Java笔记本
+
+[root@djl /]# git clone https://github.com/aws-samples/d2l-java
+
+[root@djl /]# cd d2l-java
+
+这里的IP是内部环境IP，由于我部署的环境是在云服务器上，实际根据自己网络环境情况填写
+
+[root@d2l-java /]# jupyter notebook --ip=XXX.XXX.XX.XX --allow-root
