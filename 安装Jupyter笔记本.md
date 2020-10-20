@@ -8,13 +8,13 @@
 
 需要JDK 11（或更高版本）才能运行此文件夹中提供的示例。
 
-[root@47 /]# curl -O https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
+[root@djl /]# curl -O https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
 
-[root@47 /]# tar zxvf openjdk-11.0.1_linux-x64_bin.tar.gz
+[root@djl /]# tar zxvf openjdk-11.0.1_linux-x64_bin.tar.gz
 
-[root@47 /]# mv jdk-11.0.1 /usr/local/
+[root@djl /]# mv jdk-11.0.1 /usr/local/
 
-[root@47 /]# vi /etc/profile.d/jdk11.sh
+[root@djl /]# vi /etc/profile.d/jdk11.sh
 
 #create new
 
@@ -22,9 +22,9 @@ export JAVA_HOME=/usr/local/jdk-11.0.1
 
 export PATH=$PATH:$JAVA_HOME/bin
 
-[root@47 /]# source /etc/profile.d/jdk11.sh
+[root@djl /]# source /etc/profile.d/jdk11.sh
 
-[root@47 /]# java -version
+[root@djl /]# java -version
 
 openjdk version "11.0.1" 2018-10-16
 
@@ -40,14 +40,14 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 
 如若出现找不到wget命令，输入yum -y install wget，安装其依赖将会被安装
 
-[root@47 /]# tar -zxvf Python-3.7.1.tgz
+[root@djl /]# tar -zxvf Python-3.7.1.tgz
 
-[root@47 /]# cd Python-3.7.1
+[root@djl /]# cd Python-3.7.1
 
-[root@47 /]# ./configure
+[root@djl /]# ./configure
 
-[root@47 /]# make && make install
+[root@djl /]# make && make install
 
-[root@47 /]# python3 -V
+[root@djl /]# python3 -V
 
 Python 3.7.1
