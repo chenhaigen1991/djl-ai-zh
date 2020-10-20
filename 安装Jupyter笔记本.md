@@ -54,9 +54,13 @@ Python 3.7.1
 
 ## 3.在python3上安装jupyter笔记本
 
+使用以下命令在Python 3中安装Jupyter Notebook：
+
 [root@djl /]# pip3 install jupyter
 
 ## 4.为Jupyter Notebook安装Java内核
+
+默认情况下，jupyter Notebook仅运行Python3。您需要安装Java内核才能运行Java代码，例如DJL，这里下载jar缓慢，请耐心等待
 
 [root@djl /]# git clone https://github.com/frankfliu/IJava.git
 
