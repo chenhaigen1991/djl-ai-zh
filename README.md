@@ -7,4 +7,4 @@ Deep Java Library Artificial Intelligence zhong wen
 
 * `AWS DJL` http://djl.ai
 
-![Image](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1806414835,2504287830&fm=26&gp=0.jpg)
+![Image](https://gitee.com/jameszow/djl-ai-zh/blob/master/images/numbers.png)
