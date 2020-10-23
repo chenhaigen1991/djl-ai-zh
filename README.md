@@ -6,4 +6,5 @@ Deep Java Library Artificial Intelligence zhong wen
 ## 本书网址
 
 * `AWS DJL` http://djl.ai
-![Image](https://raw.githubusercontent.com/Gladysid/Images-blog/master/IE-box-pic.png)
+
+![Image](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1806414835,2504287830&fm=26&gp=0.jpg)
