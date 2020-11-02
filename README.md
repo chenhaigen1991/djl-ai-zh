@@ -8,3 +8,5 @@ Deep Java Library Artificial Intelligence zhong wen
 * `AWS DJL` http://djl.ai
 
 ![image](https://latex.codecogs.com/gif.latex?\\sum_{i=0}^n)
+
+![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
