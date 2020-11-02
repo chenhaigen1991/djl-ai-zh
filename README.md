@@ -6,5 +6,4 @@ Deep Java Library Artificial Intelligence zhong wen
 ## 本书网址
 
 * `AWS DJL` http://djl.ai
-
-![Image](https://github.com/Jzow/djl-ai-zh/blob/main/images/calculus.png)
+https://latex.codecogs.com/gif.latex?\\sum_{i=0}^n
