@@ -6,3 +6,4 @@ Deep Java Library Artificial Intelligence zhong wen
 ## 本书网址
 
 * `AWS DJL` http://djl.ai
+* `D2L DJL` http://d2l.djl.ai
