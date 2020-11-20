@@ -8,7 +8,7 @@
 
 需要JDK 11（或更高版本）才能运行此文件夹中提供的示例。
 
-[root@djl /]# curl -O https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
+<code># curl -O https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz</code>
 
 [root@djl /]# tar zxvf openjdk-11.0.1_linux-x64_bin.tar.gz
 
